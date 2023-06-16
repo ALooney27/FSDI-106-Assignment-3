@@ -1,0 +1,87 @@
+h1 {
+  color: darkblue;
+  text-align: center;
+  margin: 0;
+  padding: 5px;
+}
+
+h3 {
+  color: darkblue;
+  text-align: center;
+}
+
+nav {
+  background-color: #333;
+  padding-bottom: 10px;
+}
+
+main {
+  display: flex;
+  background-image: url("https://png.pngtree.com/background/20210709/original/pngtree-technology-cool-background-code-picture-image_929799.jpg");
+
+  background-image: 100%;
+}
+
+.list {
+  flex: 5;
+  position: relative;
+}
+
+#btnInfo {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.info {
+  background-color: rgba(236, 236, 236, 0.43);
+  flex: 3;
+  padding: 20px 15px;
+  height: calc(100vh - 79px);
+}
+
+#iImportant {
+  font-size: 32px;
+  color: #6a6b6c;
+  cursor: pointer;
+}
+
+.active {
+  color: rgb(192, 11, 11) !important;
+}
+
+.task {
+  display: flex;
+  border: 1px solid #bebebf;
+  margin: 10px 15px 0 15px;
+  border-radius: 4px;
+  padding: 5px 10px;
+  align-items: center;
+}
+
+.task:hover {
+  border-color: black;
+  background-color: lightgrey;
+}
+
+.task .details {
+  flex: 5;
+}
+
+.task .details h5 {
+  margin: 0;
+}
+
+.task .details p {
+  margin: 0;
+}
+
+.task label {
+  flex: 1;
+}
+
+footer {
+  background-color: #584f6c;
+  color: white;
+  text-align: center;
+}
